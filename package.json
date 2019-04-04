@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kf07/nuxt-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kf07/nuxt-typescript/issues"
+  },
+  "homepage": "https://github.com/kf07/nuxt-typescript#readme",
+  "dependencies": {
+    "nuxt": "^2.5.1"
+  }
+}
