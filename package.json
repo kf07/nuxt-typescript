@@ -20,5 +20,9 @@
   "homepage": "https://github.com/kf07/nuxt-typescript#readme",
   "dependencies": {
     "nuxt": "^2.5.1"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.6.1",
+    "ts-node": "^8.0.3"
   }
 }

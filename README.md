@@ -33,3 +33,8 @@ pages/index.vueの作成
     <h1>Hello world!</h1>
 </template>
 ```
+
+ts-node、@nuxt/typescriptをインストール
+```
+npm i -D ts-node @nuxt/typescript
+```
