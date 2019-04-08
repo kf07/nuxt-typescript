@@ -27,7 +27,7 @@ pagesディレクトリの作成
 mkdir pages
 ```
 
-pages/index.vueの作成
+pages/index.vueの作成して
 ```vue
 <template>
     <h1>Hello world!</h1>
@@ -37,4 +37,27 @@ pages/index.vueの作成
 ts-node、@nuxt/typescriptをインストール
 ```
 npm i -D ts-node @nuxt/typescript
+```
+
+ルートにnuxt.config.tsとtsconfig.jsonを作成
+
+nuxt.config.ts
+```typescript
+import NuxtConfiguration from '@nuxt/config'
+
+const config: NuxtConfiguration = {
+};
+
+module.exports = config
+```
+
+tsconfig.json
+```json
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node"
+  }
+}
 ```
